@@ -14,7 +14,7 @@ The repository contains code for cell wall morphological segmentation, medial
 axis transform, genetic algorithm, Breadth-first search algorithm, turgor
 simulation in dome-shaped meristem in MATLAB and Python.
 
-# Requirements: 
+# Requirement
 The code requires MATLAB2016a, python 3.6 as well as the
 following python libraries:
 
@@ -31,7 +31,7 @@ recognize.
 
 # Tutorial
 
-## A.	Trace Cell Contours in Microphotographs by Utilizing A Fully Convolutional Network (FCN) Based Model
+### A.	Trace Cell Contours in Microphotographs by Utilizing A Fully Convolutional Network (FCN) Based Model
 
 1.  Call function *imagecut.m* to cut the paired, same sized **demo.png** and
     **label.png** to small images with same rules. We selected 12 demo.png
@@ -62,7 +62,7 @@ recognize.
     0.2 mm thickness lines as the name of **data.png**. Pay attention to the
     relative size of cells in **data.png**.
 
-**B.  Number Cells and Obtain Coordinate Values of Cell Boundaries**
+### B.  Number Cells and Obtain Coordinate Values of Cell Boundaries
 
 10. Run *GetCentra.m* to number cells by clicking the mouse at any point of a
     cell, by using **demo.png** as input and calling *circleplot.m*. Output
@@ -74,7 +74,7 @@ recognize.
 12. Run *visualization.m* to visualize and check traced cells and their numbers.
     Output **show.fig**.
 
-**C.  Modeling by Utilizing Genetic Algorithm And Determined Normalized Turgor Data**
+### C.  Modeling by Utilizing Genetic Algorithm And Determined Normalized Turgor Data
 
    **13a. FOR ONE-PART MODELLING**
 
@@ -111,12 +111,12 @@ recognize.
     *Remove0_5.m*. Output **figures** showing process, evolutionary_record and
     result, and **finalColorAllocation.mat**. Save **result.fig**.
 
-**D.  Delete undetected paths and edit pictures**
+### D.  Delete undetected paths and edit pictures
 
 14.  Run **FixFig.m** with pre-opened **result.fig**. Optional: save the
     outputted image as publish.fig for publishing.
 
-**E.  Obtain Layer-Based Turgor Profile in Apical Meristem Slices**
+### E.  Obtain Layer-Based Turgor Profile in Apical Meristem Slices
 
 15.  Run *GeneratePathSet(20170505).py* to categorize cells to different layers
     using **prepare.mat** as input. Output **Leval.mat** and **all the correct
@@ -133,7 +133,7 @@ recognize.
     **Centre.mat**, **Bound4Cell.mat** and **Leval.mat** as inputs. Output
     **Layer.fig** as reference.
 
-**F.  3-D Turgor Modelling**
+### F.  3-D Turgor Modelling
 
 18.  Run *Pro_3D_14.m* to build a dome simulating a meristem with two stacks of
     7-layer cells using **data2.xlsx** as input and calling *getSphere.m*,
