@@ -38,46 +38,46 @@ recognize.
 A.  **Trace Cell Contours in Microphotographs by Utilizing A Fully Convolutional
     Network (FCN) Based Model**
 
-2.  Call function *imagecut.m* to cut the paired, same sized **demo.png** and
+1.  Call function *imagecut.m* to cut the paired, same sized **demo.png** and
     **label.png** to small images with same rules. We selected 12 demo.png
     images in advance. Each has \>100 cells. We labeled cell walls manually
     using lines in corelDRAW.
 
-3.  Run *edge2red.py* to change the label lines of the images cut from the
+2.  Run *edge2red.py* to change the label lines of the images cut from the
     **label.png** to red color, forming **label set**.
 
-4.  Run *RGB2grayscale.py* to change the RGB images cut from the **demo.png** to
+3.  Run *RGB2grayscale.py* to change the RGB images cut from the **demo.png** to
     grayscale, 3-channel images, forming **demo set**.
 
-5.  Gather **label set** and **demo set** together forming **training set**.
+4.  Gather **label set** and **demo set** together forming **training set**.
 
-6.  Train the *FCN* based model on the **training set** as described
+5.  Train the *FCN* based model on the **training set** as described
     <https://github.com/gaskinwang/KittiSeg>, outputting **trained model**.
 
-7.  Run *RGB2grayscale.py* to change the RGB-mode **candidate.png** to
+6.  Run *RGB2grayscale.py* to change the RGB-mode **candidate.png** to
     grayscale, 3-channel images, outputting **g_candidate.png.**
 
-8.  Let the **trained model** read **g_candidate.png**, outputting
+7.  Let the **trained model** read **g_candidate.png**, outputting
     **reference.png**.
 
-9.  Run *Skeletonization.py* to reduce foreground regions in **reference.png**
+8.  Run *Skeletonization.py* to reduce foreground regions in **reference.png**
     to a skeletal remnant, outputting **sk_reference.png**.
 
-10. Vectorize **de_reference.png** in CorelDRAW X6, complement the gaps manually
+9. Vectorize **de_reference.png** in CorelDRAW X6, complement the gaps manually
     by referencing the **candidate.png**, and save cell boundaries structured at
     0.2 mm thickness lines as the name of **data.png**. Pay attention to the
     relative size of cells in **data.png**.
 
 B.  **Number Cells and Obtain Coordinate Values of Cell Boundaries**
 
-11. Run *GetCentra.m* to number cells by clicking the mouse at any point of a
+10. Run *GetCentra.m* to number cells by clicking the mouse at any point of a
     cell, by using **demo.png** as input and calling *circleplot.m*. Output
     **Data2.mat** and **centre.xlsx**.
 
-12. Run *GetBound.m* to trace cell boundaries of **demo.png** using
+11. Run *GetBound.m* to trace cell boundaries of **demo.png** using
     **Data2.mat** and **centre.xlsx** as inputs. Output **Bound4Cell.mat**.
 
-13. Run *visualization.m* to visualize and check traced cells and their numbers.
+12. Run *visualization.m* to visualize and check traced cells and their numbers.
     Output **show.fig**.
 
 C.  **Modeling by Utilizing Genetic Algorithm And Determined Normalized Turgor Data**
