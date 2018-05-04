@@ -27,7 +27,7 @@ CorelDRAW is also needed for vectorization and manually tracing the fuzzy parts
 of cell walls that are out the limit of artificial intelligence (i.e., FCN) to
 recognize.
 
-#Tutorial
+#Tutorial#
 
 **A.	Trace Cell Contours in Microphotographs by Utilizing A Fully Convolutional Network (FCN) Based Model**
 
