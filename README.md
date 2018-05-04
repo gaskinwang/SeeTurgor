@@ -74,7 +74,7 @@ recognize.
 
 **C.  Modeling by Utilizing Genetic Algorithm And Determined Normalized Turgor Data**
 
-13a. FOR ONE-PART MODELLING</font>
+   **13a. FOR ONE-PART MODELLING**
 
    i.  Run *ExtractInformation2.m* to build the framework for Genetic Algorithm by
     using **Data2.mat**, **Centre.mat**, **Bound4Cell.mat** and **WT98 1 + 0.5
@@ -86,7 +86,7 @@ recognize.
     process, evolutionary_record and result, and **ColorAllocation.mat**. Save
     **result.fig**.
 
-**13b. FOR Three-PART MODELLING**
+   **13b. FOR Three-PART MODELLING**
 
    i.  Run *cal4divide.m* (which calls *visualization.m* which uses **Data2.mat**,
     **Centre.mat** and **Bound4Cell.mat** as inputs) with pre-opened
