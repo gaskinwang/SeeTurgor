@@ -50,8 +50,7 @@ A.  **Trace Cell Contours in Microphotographs by Utilizing A Fully Convolutional
 
 4.  Gather **label set** and **demo set** together forming **training set**.
 
-5.  Train the *FCN* based model on the **training set** as described
-    <https://github.com/gaskinwang/KittiSeg>, outputting **trained model**.
+5.  Train the *FCN* based model on the **training set** as [described], outputting **trained model**.
 
 6.  Run *RGB2grayscale.py* to change the RGB-mode **candidate.png** to
     grayscale, 3-channel images, outputting **g_candidate.png.**
@@ -145,3 +144,4 @@ F.  **3-D Turgor Modelling**
     *FW.m* and *FindWays4.m*. Output a 3-D model, **3D.fig**.
     
 [FCN]: https://arxiv.org/abs/1612.07695
+[described]: https://github.com/gaskinwang/KittiSeg
