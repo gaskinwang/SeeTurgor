@@ -88,7 +88,7 @@ recognize.
     process, evolutionary_record and result, and **ColorAllocation.mat**. Save
     **result.fig**.
 
-   :arrow_lower_right: 13b. FOR Three-PART MODELLING**
+   :arrow_lower_right: 13b. FOR Three-PART MODELLING
 
    i.  Run *cal4divide.m* (which calls *visualization.m* which uses **Data2.mat**,
     **Centre.mat** and **Bound4Cell.mat** as inputs) with pre-opened
