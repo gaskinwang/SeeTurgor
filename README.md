@@ -26,7 +26,7 @@ following python libraries:
 -   commentjson
 
 CorelDRAW is also needed for vectorization and manually tracing the fuzzy parts
-of cell walls that are out the limit of artificial intelligence (i.e., FCN) to
+of cell walls that are out the limit of artificial intelligence to
 recognize.
 
 # Tutorial
