@@ -3,10 +3,9 @@ multicellular tissue. It aims to provide rounded toolboxes for post analysis,
 after measured various sets of on-site turgor pressures of cells neighbored in
 random directions and photographed homorganic tissue sections. SeeTurgor first
 performs turgor prediction at any tangent plane of a plant meristem by utilizing
-an FCN based model (https://arxiv.org/abs/1612.07695) to segment cell walls,
-cooperating with genetic algorithm to generate an optimal cell wall patterned
-graph solution that satisfies the problem's statement: the data set extracted
-from the graph is at highest similar with experimental measurements. Then,
+an [FCN] based model to segment cell walls, cooperating with genetic algorithm to 
+generate an optimal cell wall patterned graph solution that satisfies the problem's 
+statement: the data set extracted from the graph is at highest similar with experimental measurements. Then,
 abstract the layer-based turgor characters with breadth-first search algorithm,
 followed by 3-D modeling.
 
@@ -144,3 +143,5 @@ F.  **3-D Turgor Modelling**
 18.  Run *Pro_3D_14.m* to build a dome simulating a meristem with two stacks of
     7-layer cells using **data2.xlsx** as input and calling *getSphere.m*,
     *FW.m* and *FindWays4.m*. Output a 3-D model, **3D.fig**.
+    
+[FCN]: https://arxiv.org/abs/1612.07695
