@@ -1,4 +1,4 @@
-#SeeTurgor
+# SeeTurgor
 SeeTurgor is to gain insights into the arrangement of turgidity in a
 multicellular tissue. It aims to provide rounded toolboxes for post analysis,
 after measured various sets of on-site turgor pressures of cells neighbored in
@@ -14,7 +14,8 @@ The repository contains code for cell wall morphological segmentation, medial
 axis transform, genetic algorithm, Breadth-first search algorithm, turgor
 simulation in dome-shaped meristem in MATLAB and Python.
 
-**Requirements**: The code requires MATLAB2016a, python 3.6 as well as the
+# Requirements: 
+The code requires MATLAB2016a, python 3.6 as well as the
 following python libraries:
 
 -   OpenCV
@@ -28,7 +29,7 @@ CorelDRAW is also needed for vectorization and manually tracing the fuzzy parts
 of cell walls that are out the limit of artificial intelligence (i.e., FCN) to
 recognize.
 
-**Tutorial**
+# Tutorial
 
 **A.	Trace Cell Contours in Microphotographs by Utilizing A Fully Convolutional Network (FCN) Based Model**
 
