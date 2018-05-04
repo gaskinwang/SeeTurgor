@@ -31,7 +31,7 @@ recognize.
 
 # Tutorial
 
-**A.	Trace Cell Contours in Microphotographs by Utilizing A Fully Convolutional Network (FCN) Based Model**
+## A.	Trace Cell Contours in Microphotographs by Utilizing A Fully Convolutional Network (FCN) Based Model
 
 1.  Call function *imagecut.m* to cut the paired, same sized **demo.png** and
     **label.png** to small images with same rules. We selected 12 demo.png
