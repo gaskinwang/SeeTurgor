@@ -27,7 +27,7 @@ CorelDRAW is also needed for vectorization and manually tracing the fuzzy parts
 of cell walls that are out the limit of artificial intelligence (i.e., FCN) to
 recognize.
 
-#Tutorial#
+**Tutorial**
 
 **A.	Trace Cell Contours in Microphotographs by Utilizing A Fully Convolutional Network (FCN) Based Model**
 
@@ -74,7 +74,7 @@ recognize.
 
 **C.  Modeling by Utilizing Genetic Algorithm And Determined Normalized Turgor Data**
 
-<font color=red>13a. FOR ONE-PART MODELLING</font>
+13a. FOR ONE-PART MODELLING</font>
 
    i.  Run *ExtractInformation2.m* to build the framework for Genetic Algorithm by
     using **Data2.mat**, **Centre.mat**, **Bound4Cell.mat** and **WT98 1 + 0.5
