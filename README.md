@@ -17,15 +17,10 @@ simulation in dome-shaped meristem in MATLAB and Python.
 following python libraries:
 
 -   OpenCV
-
 -   matplotlib
-
 -   numpy
-
 -   Pillow
-
 -   scipy
-
 -   commentjson
 
 CorelDRAW is also needed for vectorization and manually tracing the fuzzy parts
@@ -82,34 +77,34 @@ C.  **Modeling by Utilizing Genetic Algorithm And Determined Normalized Turgor D
 
 13a**. FOR ONE-PART MODELLING**
 
-    1.  Run *ExtractInformation2.m* to build the framework for Genetic Algorithm by
+   i.  Run *ExtractInformation2.m* to build the framework for Genetic Algorithm by
     using **Data2.mat**, **Centre.mat**, **Bound4Cell.mat** and **WT98 1 + 0.5
     modelling data.xlsx** as inputs, and calling *getPoint.m*. Output
     **prepare.mat**.
 
-    2.  Run *mainFun.m* to genetically evolve by using **prepare.mat** as input and
+   ii.  Run *mainFun.m* to genetically evolve by using **prepare.mat** as input and
     calling *myga5.m* which further calls *fitFun.m*. Output **figures** showing
     process, evolutionary_record and result, and **ColorAllocation.mat**. Save
     **result.fig**.
 
    13b**. FOR Three-PART MODELLING**
 
-    1.  Run *cal4divide.m* (which calls *visualization.m* which uses **Data2.mat**,
+   i.  Run *cal4divide.m* (which calls *visualization.m* which uses **Data2.mat**,
     **Centre.mat** and **Bound4Cell.mat** as inputs) with pre-opened
     **show.fig** to divide cells to three groups with two point-point lines, by
     clicking the mouse and using **Centre.mat** as input. Output **select.xlsx**
     and **select.mat**.
 
-    2.  Run *visualization4divide.m* to visualize and check the divided result,
+   ii.  Run *visualization4divide.m* to visualize and check the divided result,
     using **Data2.mat**, **Centre.mat**, **Bound4Cell.mat** and **select.xlsx**
     as inputs.
 
-    3.  Run *ExtractInformation3.m* to build the framework for Genetic Algorithm
+   iii.  Run *ExtractInformation3.m* to build the framework for Genetic Algorithm
     using **Centre.mat**, **Bound4Cell.mat** and **modeling_data.xlsx** and
     **select.xlsx** as inputs, subsequently calling **refresh.m**. Output
     **prepare.mat**.
 
-    4.  Run *mainfun-re.m* to genetically evolve by using **preapare.mat** and
+   iv.  Run *mainfun-re.m* to genetically evolve by using **preapare.mat** and
     **select.xlsx** as inputs and calling *new-maya5.m* (which calls
     *fitfun.m*), *relativePath.m*, *GetColorAllocation.m*, *new-showbest.m* and
     *Remove0_5.m*. Output **figures** showing process, evolutionary_record and
