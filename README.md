@@ -75,6 +75,8 @@ recognize.
     Output **show.fig**.
 
 ### C.  Modeling by Utilizing Genetic Algorithm And Determined Normalized Turgor Data
+>   (note that the contents of same named *maya5.m* and *showbest.m* for the
+>   following two modeling methods are different)
 
    :arrow_lower_right: 13a. FOR ONE-PART MODELLING
 
