@@ -14,7 +14,7 @@ The repository contains code for cell wall morphological segmentation, medial
 axis transform, genetic algorithm, Breadth-first search algorithm, turgor
 simulation in dome-shaped meristem in MATLAB and Python.
 
-# Requirement
+# Requirements
 The code requires MATLAB2016a, python 3.6 as well as the
 following python libraries:
 
