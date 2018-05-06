@@ -1,4 +1,4 @@
-%基础部分全部测试完成，下面加入遗传算法的框架
+%The basic part is completed.  The framework of the genetic algorithm will be involved.
 clear all;close all;clc
 load prepare.mat
 
@@ -43,9 +43,9 @@ for se=1:3
 end
 
 
-%可视化部分
+%Visualization
 h_fig=figure();
-cmap=hsv();%颜色对应关系
+cmap=hsv();%color
 colormap(cmap);
 caxis([0 5])
 colorbar
