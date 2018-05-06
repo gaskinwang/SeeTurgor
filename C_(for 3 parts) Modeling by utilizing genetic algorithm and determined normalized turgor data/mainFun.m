@@ -60,4 +60,5 @@ end
 axis([0 2500 0 1000])
 axis manual
 
-save ColorAllocation.mat ColorAllocation
+FinalColorAllocation(FinalColorAllocation==4)=0.5;
+save FinalColorAllocation.mat FinalColorAllocation
