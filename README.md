@@ -130,7 +130,7 @@ recognize.
     **FinalColorAllocation.mat** as inputs. Output **Leval.mat**, **all the
     correct path4.xlsx** and **values and colors4.xlsx** which are both also
     printed in the command window.
-    >   (**OR** use **FinalColorAllocation.mat** instead of **ColorAllocation.mat**
+>   (**OR** use **FinalColorAllocation.mat** instead of **ColorAllocation.mat**
 >   as input for 3 parts modeling)
 
 
