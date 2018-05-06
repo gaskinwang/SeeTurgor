@@ -111,7 +111,7 @@ recognize.
     **select.xlsx** as inputs and calling *new-maya5.m* (which calls
     *fitfun.m*), *relativePath.m*, *GetColorAllocation.m*, *showbest.m* and
     *Remove0_5.m*. Output **figures** showing process, evolutionary_record and
-    result, and **TotalColorAllocation.mat**. Save **result.fig**.
+    result, and **FinalColorAllocation.mat**. Save **result.fig**.
 
 ### D.  Delete undetected paths and edit pictures
 
@@ -130,6 +130,9 @@ recognize.
     **FinalColorAllocation.mat** as inputs. Output **Leval.mat**, **all the
     correct path4.xlsx** and **values and colors4.xlsx** which are both also
     printed in the command window.
+    >   (**OR** use **FinalColorAllocation.mat** instead of **ColorAllocation.mat**
+>   as input for 3 parts modeling)
+
 
 17.  Run *check_result.m* to check the layered pattern using **Data2.mat**,
     **Centre.mat**, **Bound4Cell.mat** and **Leval.mat** as inputs. Output
