@@ -75,11 +75,11 @@ recognize.
     Output **show.fig**.
 
 ### C.  Modeling by Utilizing Genetic Algorithm and Determined Normalized Turgor Data
->   (note that the contents of same named *maya5.m* and *showbest.m* for the
->   following two modeling methods are different.  Each of the following two optional methods has commands to indicate stem cells in advance.)
+>   Note that the contents of same named *maya5.m* and *showbest.m* for the
+>   following two modeling methods are different.  Each of the following two optional methods has commands to indicate stem cells in advance.
 
    :arrow_lower_right: 13a. FOR ONE-PART MODELLING
->   (Best choice when the number of L1 cells is \<15)
+>   Best choice when the number of L1 cells is \<15
 
 
    i.  Run *ExtractInformation2.m* to build the framework for Genetic Algorithm by
@@ -93,10 +93,10 @@ recognize.
     **result.fig**.
 
    :arrow_lower_right: 13b. FOR Three-PART MODELLING
->   (If the number of L1 cells is \>30, the cells are equally divided into left,
+>   If the number of L1 cells is \>30, the cells are equally divided into left,
 middle and right three groups to reduce computational complexity; if the number is
-\>15, but \<30, the cells are equally divided into left and right groups. The
-two distribution ways share same modeling method.)
+\>15, but \<30, the cells are equally divided into left and right groups. These
+pretreatment modes share same modeling method.
 
 
    i.  Run *cal4divide.m* (which calls *visualization.m* which uses **Data2.mat**,
