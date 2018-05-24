@@ -6,7 +6,7 @@ random directions and photographed homorganic tissue sections. SeeTurgor first
 performs turgor prediction at any tangent plane of a plant meristem by utilizing
 an [FCN] based model to segment cell walls, cooperating with genetic algorithm to 
 generate an optimal cell wall patterned graph solution that satisfies the problem's 
-statement: the data set extracted from the graph is at highest similar with experimental measurements. Then,
+statement: the data set extracted from the graph is at maximum similarity with experimental measurements. Then,
 abstract the layer-based turgor characters with breadth-first search algorithm,
 followed by 3-D modeling.
 
