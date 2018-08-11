@@ -119,6 +119,17 @@ pretreatment modes share same modeling method.
     *fitfun.m*), *relativePath.m*, *GetColorAllocation.m*, *showbest.m* and
     *Remove0_5.m*. Output **figures** showing process, evolutionary_record and
     result, and **FinalColorAllocation.mat**. Save **result.fig**.
+   :arrow_lower_right: 13c. **FOR MODELLING WITH ASSIGNED STEM CELLS**
+
+1.  Run *ExtractInformation2.m* to build the framework for Genetic Algorithm by
+    using **Data2.mat**, **Centre.mat**, **Bound4Cell.mat** and **WT98 0.5
+    modelling data.xlsx** as inputs, and calling *getPoint.m*. Output
+    **prepare.mat**.
+
+2.  Run *mainFun.m* to genetically evolve by using **prepare.mat** as input and
+    calling *myga5.m* which further calls *fitFun.m* et.al.. Output **figures**
+    showing process, evolutionary_record and result, and
+    **ColorAllocation.mat**. Save **result.fig**.   
 
 ### D.  Delete undetected paths and edit pictures
 
