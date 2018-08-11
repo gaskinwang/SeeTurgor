@@ -122,6 +122,9 @@ pretreatment modes share same modeling method.
    
 
    :arrow_lower_right: 13c. **FOR MODELLING WITH ASSIGNED STEM CELLS**
+>   note that *GetColorAllocation.m* here used is different from the same named
+one
+
 
    i.  Run *ExtractInformation2.m* to build the framework for Genetic Algorithm by
     using **Data2.mat**, **Centre.mat**, **Bound4Cell.mat** and **WT98 0.5
