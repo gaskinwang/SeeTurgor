@@ -120,7 +120,8 @@ pretreatment modes share same modeling method.
     *Remove0_5.m*. Output **figures** showing process, evolutionary_record and
     result, and **FinalColorAllocation.mat**. Save **result.fig**.
    
-    :arrow_lower_right: 13c. **FOR MODELLING WITH ASSIGNED STEM CELLS**
+
+   :arrow_lower_right: 13c. **FOR MODELLING WITH ASSIGNED STEM CELLS**
 
    i.  Run *ExtractInformation2.m* to build the framework for Genetic Algorithm by
     using **Data2.mat**, **Centre.mat**, **Bound4Cell.mat** and **WT98 0.5
@@ -128,7 +129,7 @@ pretreatment modes share same modeling method.
     **prepare.mat**.
 
    ii.  Run *mainFun.m* to genetically evolve by using **prepare.mat** as input and
-    calling *myga5.m* which further calls *fitFun.m* et.al.. Output **figures**
+    calling *myga5.m* which further calls *fitFun.m*. Output **figures**
     showing process, evolutionary_record and result, and
     **ColorAllocation.mat**. Save **result.fig**.   
 
